@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+                                            <!-- author -->
+<meta name="author" content="Chloe">
+                                            <!-- page title -->
+<title>Salutations</title>
+                                            <!-- favicon -->
+<link rel="shortcut icon" href="img/favi.png" type="image/ico">
+                                            <!-- css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+                                            <!-- js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                                        <!-- responsive  -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+                                          <!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+
+				<!-- content -->
+
+
+<label onclick="buttonchange()" for="lightswitch"><img id="buttonchange" src="img/moon.png" width="50px"></label>
+<input type="checkbox" id="lightswitch"/>
+
+
+<div class="next">
+
+
+               <div class="rows">
+
+		                            <!-- top row -->
+
+<a target="blank" href="https://twitter.com" class="square">Trash</a>
+
+<a target="blank" href="https://www.youtube.com/playlist?list=WL&disable_polymer=true" class="square">Videos</a>
+
+<a target="blank" href="http://chloechantelle.com" class="square">Domain</a>
+
+<a href="https://www.tumblr.com/customize/chloe-chantelle" class="square">Hosting</a>
+
+                                       <!-- second row -->
+<a target="blank" href="https://www.reddit.com/r/Overwatch" class="square">r/Overwatch</a>    
+
+<a target="blank" href="https://userstyles.org/users/268662" class="square">Userstyles</a>
+
+<a target="blank" href="http://ayychloe.deviantart.com" class="square">DA</a>
+
+<a target="blank" href="https://www.twitch.tv/directory/game/Overwatch" class="square">Twitch</a>
+
+                                        <!-- third row -->
+    
+<a target="blank" href="http://connect.tafeqld.edu.au" class="square">Connect</a>
+
+<a target="blank" href="http://w3schools.com" class="square">W3</a>
+
+<a target="blank" href="https://color.adobe.com/create/color-wheel" class="square">Color Wheel</a>
+
+<a target="blank" href="https://autoprefixer.github.io" class="square">Autoprefixer</a>
+
+                        </div> <!-- close rows -->
+
+
+<div class="image"></div>
+
+</div>	<!-- close next -->
+
+
+
+						<!-- js -->
+
+<!-- moon/sun switch -->
+<script>
+img_array= new Array('img/moon.png','img/sun.png');
+i=0;
+function buttonchange()
+{
+     i++;
+    document.getElementById("buttonchange").src=img_array[i];
+    if(i==img_array.length-1) {
+   i=-1;
+    }  
+}
+</script>
+
+</body>
+</html>
